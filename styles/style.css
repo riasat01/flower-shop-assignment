@@ -170,6 +170,38 @@ body {
     margin: 1%;
 }
 
+.rooftop-container {
+    width: 77%;
+    margin: 100px 11.5%;
+    background-image: url('../Flower Asset/rooftop.jpeg'), linear-gradient(rgba(229, 84, 115, 0.5), rgba(229, 84, 115, 0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    border-radius: 8px;
+}
+
+.rooftop-title {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+.rooftop-description{
+    color:white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px;
+}
+.rooftop-btn{
+    color: tomato;
+    background-color: white;
+    border-radius: 20px;
+    padding: 3px 10px;
+    border: none;
+    font-weight: bold;
+}
+
 .form {
     max-width: 77%;
     margin: auto;
